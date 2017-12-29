@@ -1,0 +1,41 @@
+html, body {
+    font-size: 10px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.background-image{
+    width: 60%;
+    background: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+
+.main-content {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #E3E9E9 0%, #FFFFFF 14.23%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 400px;
+    overflow: scroll;
+    padding:0 5%;
+    width: 40%;
+
+    h1 {
+        margin: 0;
+        font-size: 5rem;
+        font-weight: 500;
+        line-height: 15rem;
+        margin-top: 6rem;
+        letter-spacing: 1.5px;
+    }
+}
